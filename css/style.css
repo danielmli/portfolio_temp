@@ -2,6 +2,7 @@ body {
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     padding: 0;
     margin: 0;
+    text-align: center;
 }
 
 /* Header */
@@ -11,7 +12,7 @@ body {
     justify-content: space-between;
     align-items: center;
     background-color: #1F2937;
-    padding: 20px 100px;
+    padding: 20px 10%;
 }
 
 .logo {
@@ -72,7 +73,6 @@ h1 {
 /*items*/
 
 .items {
-    background-color: #F9FAF8;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -107,7 +107,30 @@ h2 {
 
 .item-images p {
     padding:10px;
-    text-align: center;
+}
+
+.quote {
+    background: #e5e7eb;
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+}
+
+.quote-text {
+    font-style: italic;
+    font-weight: lighter;
+    color: #1F2937;
+    font-size: 36px;
+    text-align: left;
+    width: 60%;
+}
+
+.attr {
+    font-size: 30px;
+    font-weight: bold;
+    text-align: right;
+    width:60%;
+    margin-top: -20px;
 }
 
 .footer {
